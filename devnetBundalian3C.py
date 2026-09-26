@@ -9,13 +9,27 @@ pets = []  # starts empty — the user adds pets as the program runs
 def display_menu():
     print("=== Pet Adoption Records ===")
     print(" 1.Add a pet \n 2. View all pets \n 3. Count available vs adopted \n 4. Find a pet name \n 5. Exit")
-    option = input("Choose a option: ") 
-    
+    option = int(input("Choose a option: ")) 
+    option = 1,2,3,4,5
+      if option == 1:
+        print("")
+    elif option == 2:
+        print("")
+    elif option == 3:
+        print("")
+    elif option == 4:
+        print("")
+    elif option == 5:
+        print("Thank you Come again!")
+    else:
+        print("Invalid")
+        
     # print the menu, return the user's choice 
     pass
 
 def add_pet(pet_list):
     petname = input("Name of the Pet: ")
+
     # ask for name, animal type, status — build the string, add to the list
     pass
 
