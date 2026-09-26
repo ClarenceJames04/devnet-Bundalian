@@ -9,9 +9,9 @@ pets = ["Dog", "Cat", "Rabbit"]  # starts empty — the user adds pets as the pr
 def display_menu():
     print("=== Pet Adoption Records ===")
     print(" 1.Add a pet \n 2. View all pets \n 3. Count available vs adopted \n 4. Find a pet name \n 5. Exit")
-    print 
-
-    # print the menu, return the user's choice
+    option = input("Choose a option: ") 
+    add a if else statement for choosing
+    # print the menu, return the user's choice 
     pass
 
 def add_pet(pet_list):
