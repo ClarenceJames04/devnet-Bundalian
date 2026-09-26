@@ -10,11 +10,12 @@ def display_menu():
     print("=== Pet Adoption Records ===")
     print(" 1.Add a pet \n 2. View all pets \n 3. Count available vs adopted \n 4. Find a pet name \n 5. Exit")
     option = input("Choose a option: ") 
-    add a if else statement for choosing
+    
     # print the menu, return the user's choice 
     pass
 
 def add_pet(pet_list):
+    petname = input("Name of the Pet: ")
     # ask for name, animal type, status — build the string, add to the list
     pass
 
