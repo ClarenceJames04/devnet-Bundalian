@@ -3,7 +3,7 @@ Midterm Practical Exam — Pet Adoption Records Manager
 Student: Bundalian, Clarence James L.
 """
 
-pets = ["Dog", "Cat", "Rabbit"]  # starts empty — the user adds pets as the program runs
+pets = []  # starts empty — the user adds pets as the program runs
 
 
 def display_menu():
