@@ -13,7 +13,7 @@
 
 ## Key vocabulary (in your own words)
 
-- repository: A folder where your project and its files are stored.
+- repository: A folder where your project and its files are stored
 - commit: Save the changes
 - branch: Seperate your work to another user
 - push / pull: Push uploads your changes to GitHub. Pull downloads the latest changes
