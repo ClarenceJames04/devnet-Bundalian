@@ -1,23 +1,24 @@
 """
 Module 2 — Lesson 3: Loops & Lists
-Student: [your name]
-Date: [date]
+Student: [Bundalian, Clarence James L.]
+Date: [09/27/2026]
 
 ============================================
 WHAT IS THIS TOPIC? (explain it like you're
 teaching a friend who's never coded before)
 ============================================
-[write your own explanation here]
+[Lists store multiple values in one variable, and loops
+repeat a task automatically. ]
 
 
 ============================================
 KEY VOCABULARY
 ============================================
-- list:
-- for loop:
-- while loop:
-- index:
-- iteration:
+- list: stores multiple items 
+- for loop: repeats thru each item 
+- while loop: repeats while the condition is true 
+- index: position of an item in a list 
+- iteration: one repeat of a loop
 (add more as needed)
 
 
@@ -28,15 +29,15 @@ Write at least one working example below that you
 came up with yourself — not copied from class.
 """
 
-# --- your code example goes here ---
-
-
+subjects = ["Math", "English", "Python"]
+for subject in subjects:
+    print("Study:", subject)
 """
 ============================================
 A MISTAKE I MADE (or one I want to avoid)
 ============================================
-[what's something confusing or easy to get wrong
-about this topic?]
+[I forgot to indent the code inside the loop, which
+caused an error.]
 
 
 ============================================
