@@ -33,7 +33,7 @@
 ```
 #   git add notes.md
     git commit -m "Edited notes.md file"
-    git push
+    git push --set-upstream origin NotesMD
 ```
 
 ---

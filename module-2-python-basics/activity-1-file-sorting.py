@@ -1,23 +1,21 @@
 """
 Module 2 — Activity: File Sorting with os and shutil
-Student: [your name]
-Date: [date]
+Student: [Bundalian, Clarence James L.]
+Date: [09/27/2026]
 
 ============================================
-WHAT DID YOU BUILD? (explain in your own words)
+WHAT DID YOU BUILD? (I built a Python script that organizes files automatically. It sorts files into folders based on their file extension)
 ============================================
-[Paste your working script below first, then come back and explain
-it here: what does your script do, and what rule did you use to
-sort the files? e.g. by extension, by name, by date, etc.]
+[My script automatically organizes files into folders. It checks each file's extension]
 
 
 ============================================
 KEY VOCABULARY
 ============================================
-- os module:
-- shutil module:
-- file path:
-- directory:
+- os module: Works with files and folders
+- shutil module: Moves or copies files.
+- file path: The location of a file on the computer.
+- directory: A folder that stores files.
 (add more as needed)
 
 
@@ -30,16 +28,25 @@ Paste the code you already wrote for this activity below.
 import os
 import shutil
 
-# --- paste your existing code here ---
+source_folder = "files"
+
+for file in os.listdir(source_folder):
+    file_path = os.path.join(source_folder, file)
+
+    if os.path.isfile(file_path):
+        ext = file.split(".")[-1].lower()
+        folder = os.path.join(source_folder, ext)
+
+        os.makedirs(folder, exist_ok=True)
+        shutil.move(file_path, os.path.join(folder, file))
 
 
 """
 ============================================
 A MISTAKE I MADE (or one I want to avoid)
 ============================================
-[what tripped you up while building this? e.g. a path that didn't
-exist, a file that got overwritten, something that didn't work the
-way you expected at first]
+[I used the wrong folder path at first, so the script could not find my files. But i fixed it
+after that then my problem next is i cant list the file on the folders.]
 
 
 ============================================
