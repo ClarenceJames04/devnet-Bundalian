@@ -1,22 +1,24 @@
 """
 Module 2 — Lesson 2: Control Flow (if / elif / else)
-Student: [your name]
-Date: [date]
+Student: [Bundalian, Clarence James L.]
+Date: [09/27/2026]
 
 ============================================
 WHAT IS THIS TOPIC? (explain it like you're
 teaching a friend who's never coded before)
 ============================================
-[write your own explanation here]
+[Control flow helps a program make decisions. It checks
+a condition and runs different code depending on whether
+it is true or false.]
 
 
 ============================================
 KEY VOCABULARY
 ============================================
-- condition:
-- if / elif / else:
-- comparison operator:
-- boolean expression:
+- condition: a rule to check
+- if / elif / else: decision statements 
+- comparison operator: compares two values <>=
+- boolean expression: returns true or false
 (add more as needed)
 
 
@@ -27,15 +29,21 @@ Write at least one working example below that you
 came up with yourself — not copied from class.
 """
 
-# --- your code example goes here ---
+score = 82
+if score >= 90:
+    print("Grade: A")
+elif score >= 75:
+    print("Grade: B")
+else:
+    print("Grade: C")
+
 
 
 """
 ============================================
 A MISTAKE I MADE (or one I want to avoid)
 ============================================
-[what's something confusing or easy to get wrong
-about this topic?]
+[I forgot to put a : on the else. Put a : after the if and else statement]
 
 
 ============================================
